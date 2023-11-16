@@ -1,33 +1,75 @@
-# Containers A-Z
-## An overview of Containers, Docker, Kubernetes, Istio, Helm, Kubernetes Operators and GitOps
+# Understanding and using GitHub Codespaces
 ## Session labs for codespace only
-## Revision 1.2 - 10/17/23
-
-**Startup IF NOT ALREADY DONE!**
-```
-. ./day1.sh
-```
+## Revision 1.0 - 11/16/23
 
 **NOTE: To copy and paste in the codespace, you may need to use keyboard commands - CTRL-C and CTRL-V.**
 
-**NOTE: When we start day 2, you will find that your codespace has stopped, as in the following screenshot.**
+**Lab 1 - Exploring Codespaces**
 
-![Codespace stopped](./images/cazclass16.png?raw=true "Restart codespace")
+**Purpose: In this lab, we’ll start to learn our way around a codespace.**
 
-**You can just restart it by clicking the button and then run the "day 2" script to get things ready to continue.** (Note you may need to wait a minute for things to start up before running the day 2 script.)
+1. Take a look around your codespace.  In the "Activity Bar" on the left, click on the various icons to see the different fuctionality of each. Don't forget about the two icons at the bottom left for "Accounts" and "Manage".
+
+![Exploring activity bar](./images/spaces4.png?raw=true "Exploring activity bar")
+![Exploring activity bar](./images/spaces5.png?raw=true "Exploring activity bar")
+  
+2. Go back to the Explorer icon at the top of the Activity Bar and click on that. Click on the "> extra" item to expand that and then click on the top file there 'registry-compose.yml' to open it up. [version](https://github.com/skillrepos/cspaces/blob/1984227b82fc06e1907f1f3073178d8a469ad203/extra/registry-compose.yml)
+
+![Opening a file](./images/spaces6.png?raw=true "Opening a file")
+
+3. Since we have two files, let's change the editors to be side-by-side.  Click on the tab above the file name and drag it over to the far side where it starts to go just off of the window.  Release the tab and it should drop into a side-by-side editor view.
+
+![Change to split editor](./images/spaces7.png?raw=true "Change to split editor")
+![Split editor](./images/spaces8.png?raw=true "Split editor")
+  
+4. Next, let's see another way to open files from the terminal. In your terminal session, enter the following:  
 ```
-.  ./day2.sh
+code roar-k8s/roar-complete.yaml
 ```
+This should open up that file in another tab as shown below.
 
-**Lab 1 - Building Docker Images**
+![Opening a file #2](./images/spaces9.png?raw=true "Opening a file #2")
 
-**Purpose: In this lab, we’ll see how to build Docker images from Dockerfiles.**
+5. Now. let's see how to compare two files.  Select the 'roar-complete.yaml' file and right-click and choose 'Select for Compare'. 
 
-1. Switch into the directory for our docker work.
+![Selecting files to compare](./images/spaces10.png?raw=true "Selecting files to compare")
+   
+6. Now, select the 'roar-complete.yaml.configmap' file, right-click and select "Compare with Selected".
 
-```
-cd roar-docker
-```
+![Selecting files to compare](./images/spaces11.png?raw=true "Selecting files to compare")
+
+7. At this point, you should see the comparison file shown as a new editor tab. You can right click on any line to see options for making changes. You can drag the small gray block to scroll through differences (#1 in figure below) and then close it by clicking on the "x" in the tab (#2 in the figure below).
+
+![Comparing files](./images/spaces12.png?raw=true "Comparing files")
+
+8. Let's look at one more way to compare files from the terminal. First, let's create a second terminal. You can do that in multiple ways - by selecting the two column icon (A in figure below), by clicking on the "+" option (#2 in the figure below) by using a keyboard shortcut, or by right-clicking and selecting "Split Terminal"(C in figure below).  We'll use the last approach.  Right-click in the terminal and select "Split terminal".
+
+![Splitting terminal](./images/spaces13.png?raw=true "Splitting terminal")
+
+9. After this, you'll have two side-by-side terminals. To the far right, you'll have a list of terminals and if you hover over the bash command entry, you can see the running process info.
+
+![Split terminal](./images/spaces14.png?raw=true "Split terminal")
+
+10. In your new terminal start typing 'code -d'. Then, let's swap the right terminal with the left. Hover over the terminal list and drag the bottom (right) one up over the top (left) one.  After you're done, you can drag the dividing line to make more room in the left-hand session.
+
+![Swapping terminals](./images/spaces15.png?raw=true "Swapping terminals")
+
+11. Click on the 'roar-complete.yaml.configmap' file on the left and drag it over and drop it next to the 'code -d' command.
+
+![Comparing file 1](./images/spaces16.png?raw=true "Comparing file 1")
+
+12. **Type at least one space after the first file name.**  Now do the same "drag and drop" for the 'roar-complete.yaml' file, selecting it and dropping it after the other file and the spaces.
+
+![Comparing file 2](./images/spaces17.png?raw=true "Comparing file 2")
+
+
+13. When you hit return, you should see the same kind of diff as you did before.  Suppose we want to get a "longer" view of this file to see more of the differences. We can click on the "Toggle panel" button to see that.
+
+![Toggled view](./images/spaces18.png?raw=true "Toggled view")
+
+14. Click on the same toggle panel button again to get back to the normal view and see the terminal again.  You can click the "x" on the diff to close that. (Optional) If you want, you can delete one of the two terminal sessions by clicking on the trashcan icon over in the terminal list to the right.
+
+![Kill a terminal](./images/spaces19.png?raw=true "Kill a terminal")
 
 2. Take a look at the "Dockerfiles" that we have in this directory and see if you can understand what's happening in them. 
 
