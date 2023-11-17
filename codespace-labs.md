@@ -69,16 +69,31 @@ This should open up that file in another tab as shown below.
 
 14. Click on the same toggle panel button again to get back to the normal view and see the terminal again.  You can click the "x" on the diff to close that. (Optional) If you want, you can delete one of the two terminal sessions by clicking on the trashcan icon over in the terminal list to the right.
 
-![Kill a terminal](./images/spaces19.png?raw=true "Kill a terminal")
+![Delete terminal](./images/spaces19.png?raw=true "Delete terminal")
 
-2. Take a look at the "Dockerfiles" that we have in this directory and see if you can understand what's happening in them. 
+**Lab 2 - Customizing Codespaces**
+
+**Purpose: In this lab, we’ll see how to customize a codespace.**
+
+1. Let's install an extension for the color theme in the codespace. For practice, we'll install the "Winter is Coming Theme." Click on the Extensions icon (#1 in figure below), then in the search bar type in "winter" to quickly find the extension (#2).
+
+ 
+![Find extension](./images/spaces20.png?raw=true "Find extension")
+
+2. Once found, you can directly install the extension (#3 in figure below) or click on it (#1) and bring up the info in an editor page and scroll around it (#2) to get more details.  Go ahead and install it when ready.
+
+![Install extension](./images/spaces21.png?raw=true "Find extension")
+
+3. After installing - spaces 22
+
+3. Take a look at the "Dockerfiles" that we have in this directory and see if you can understand what's happening in them. 
 
    a. Click on the link or, in the file explorer to the left, select the file [**roar-docker/Dockerfile_roar_db_image**](./roar-docker/Dockerfile_roar_db_image)
    
    b. Click on the link or, in the file explorer to the left, select the file [**roar-docker/Dockerfile_roar_web_image**](./roar-docker/Dockerfile_roar_web_image) 
 
 
-3. Now let’s build our docker database image. Type (or copy/paste) the following
+4. Now let’s build our docker database image. Type (or copy/paste) the following
 command: (Note that there is a space followed by a dot at the end of the
 command that must be there.)
 
