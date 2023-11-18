@@ -1,8 +1,5 @@
 {
 	"image": "mcr.microsoft.com/devcontainers/universal:2",
-	"features": {
-		"ghcr.io/paul-gilber/devcontainer-features/buildah-apt-get:1": {}
-	},
 	"customizations": {
 		"vscode": {
 			"extensions": [
