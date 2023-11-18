@@ -84,8 +84,29 @@ This should open up that file in another tab as shown below.
 
 ![Install extension](./images/spaces21.png?raw=true "Find extension")
 
-3. After installing - spaces 22
+3. After installing, you'll see a list where you can select one of the new color themes. You can choose another one from the list if desired.
 
+![Theme list](./images/spaces22.png?raw=true "Theme list")
+
+4. While we're here, let's install the "GitLens" extension to allow us to more easily get Git info in the codespace.  Click on the extensions icon, search for "GitLens" and install as before.
+
+![Installing GitLens](./images/spaces23.png?raw=true "Installing GitLens")
+
+5. After this, you'll have new icons in the Activity Bar related to GitLens. If you select a line in an editor, you can see information next to it about the commit in Git that led to it.  And hovering over it gives you more information.
+
+![GitLens in use](./images/spaces24.png?raw=true "GitLens in use")
+
+6. Since we are working with Git, let's go ahead and see how to work with basic source control in a codespace. First, create a new file. Click on the Explorer icon in the activity bar (#1 in the figure below), then click on the "extra" directory in the explorer so the file will go in the right path (#2), then click on the "New File" icon (#3), and, in the new empty row that pops up, enter the file name (#4). You can name the file whatever you want.
+
+![Adding a new file](./images/spaces26.png?raw=true "Adding a new file")
+
+6. Suppose we decide we don't like this color theme after all. We can change many settings for extensions and codespaces themselves via the "Command Palette". To get to the Command Palette, you can use a key combination, access it from the settings menu icon in the Activity Bar or simply hit "F1".  Hit F1 to bring up the Command Palette, type in "Color Theme" and select the "Preferences: Color Theme" row. Take a moment and select one you like better if you want to change.
+
+![Command Palette and Color Theme](./images/spaces24.png?raw=true "Command Palette and Color Theme")
+    
+7. We can also use the Command Palette to initiate commands based off of what we have running in the codespace.
+
+8. 
 3. Take a look at the "Dockerfiles" that we have in this directory and see if you can understand what's happening in them. 
 
    a. Click on the link or, in the file explorer to the left, select the file [**roar-docker/Dockerfile_roar_db_image**](./roar-docker/Dockerfile_roar_db_image)
