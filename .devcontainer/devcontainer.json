@@ -1,0 +1,14 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"features": {
+		"ghcr.io/devcontainers-contrib/features/podman-homebrew:1": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"johnpapa.winteriscoming",
+				"eamodio.gitlens"
+			]
+		}
+	}
+}
