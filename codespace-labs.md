@@ -175,14 +175,19 @@ This should open up that file in another tab as shown below.
 11. Click on the small down arrow (to the right) on the 'Commit' button and select 'Commit & Push'. You'll see a dialog that comes up telling you there are no staged changes and asking if you want to stage and commit. Just accept the default 'Yes' answer.
 
 ![Committing file](./images/spaces47.png?raw=true "Committing file")
-![Committing file](./images/spaces48.png?raw=true "Committing file")
 
-   
+12. Before we leave this codespace, let's see what it looks like when we have a problem in the codespace. Go up to the devcontainer.json file and remove the ending quote between the colon and the left bracket of the line that has '"extensions": [' so that it is now '"extensions: ['.  Then switch to the 'PROBLEMS' tab and note the issues reported.
+    
+![Introducing problem](./images/spaces48.png?raw=true "Introducing problem")   
 <p align="center">
 **[END OF LAB]**
 </p>
 
+13. Add the quote back where it was. The problems in the tab should go away.
 
+14. 
+
+15. 
 <p align="center">
 **[END OF LAB]**
 </p>
