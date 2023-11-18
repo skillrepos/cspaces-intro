@@ -113,9 +113,9 @@ This should open up that file in another tab as shown below.
 ![Committing a new file](./images/spaces29.png?raw=true "Committing a new file") 
 ![Committing a new file](./images/spaces30.png?raw=true "Committing a new file") 
 
-10. Since we have customized our codespace somewhat now, let's suppose that we want to test if these customizations will apply if we start this one again. To do this, we can have tell codespaces to rebuild. Use F1 to get to the 'Command Palette' again. Then type in 'Rebuild'.  You should see an entries for 'Codespaces: Full Rebuild Container' and 'Codespaces: Rebuild Container'. You can select the "Codespaces: Full Rebuild Container" and let that run while we continue the lecture.
+10. Let's look at the Git output after this activity. Bring up the Command Palette by hitting F1 again and type in 'Show Git Output'. Select the option from the list and then switch to the 'OUTPUT' tab in the same section as 'TERMINAL'.
 
-![Rebuilding container](./images/spaces33.png?raw=true "Rebuilding container")    
+![Rebuilding container](./images/spaces34.png?raw=true "Rebuilding container")    
 
   10. 6. Suppose we decide we don't like this color theme after all. We can change many settings for extensions and codespaces themselves via the "Command Palette". To get to the Command Palette, you can use a key combination, access it from the settings menu icon in the Activity Bar or simply hit "F1".  Hit F1 to bring up the Command Palette, type in "Color Theme" and select the "Preferences: Color Theme" row. Take a moment and select one you like better if you want to change.
 
