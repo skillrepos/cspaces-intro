@@ -1,7 +1,7 @@
 {
 	"image": "mcr.microsoft.com/devcontainers/universal:2",
 	"features": {
-		"ghcr.io/devcontainers-contrib/features/podman-homebrew:1": {}
+		"ghcr.io/paul-gilber/devcontainer-features/buildah-apt-get:1": {}
 	},
 	"customizations": {
 		"vscode": {
