@@ -185,9 +185,15 @@ This should open up that file in another tab as shown below.
 
 13. Add the quote back where it was. The problems in the tab should go away.
 
-14. 
+14. Now we'll do some management of codespaces through the repository codespace page. In your repository's tab, go to 'https://github.com/<your github userid>/codespaces.
 
-15. 
+15. On this page you'll see your current codespaces listed. Delete the older one (the one with 2 cores) and Stop the newer one, the one with 4 cores).
+
+![Deleting codespace](./images/spaces50.png?raw=true "Deleting codespace") 
+![Stopping codespace](./images/spaces51.png?raw=true "Stopping codespace") 
+ 
+
+17. 
 <p align="center">
 **[END OF LAB]**
 </p>
