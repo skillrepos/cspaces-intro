@@ -260,7 +260,55 @@ This should open up that file in another tab as shown below.
 
 ![Publish codespace](./images/spaces71.png?raw=true "Publish codespace") 
 
-    
+**Lab 5 - Live sharing and collaboration**
+
+**Purpose: In this lab, we’ll see how to share a codespace and collaborate with it.** 
+
+1. In the codespace you were just working in (or one that you startup from the published repo, search for the `Live Share` extension and install it.
+
+![Find and install Live Share extension](./images/spaces72.png?raw=true "Find and install Live Share extension")
+
+2. Click on the `Live Share` icon/link at the bottom of the codespace window.
+
+![Live Share click](./images/spaces73.png?raw=true "Live Share click") 
+
+3. After you click on this, the codespace will copy a sharing link to your clipboard for the codespace.
+
+![Live Share link](./images/spaces74.png?raw=true "Live Share link") 
+
+4. This can be sent in email or any kind of messaging to someone. For now, just paste it into another browser session and it will try to open the app in a web version of Visual Studio Code. You'll see a dialog asking to `Open Visual Studio Code 2.app`. Just click on that button.
+
+![Open VS Code app](./images/spaces75.png?raw=true "Open VS Code app") 
+
+5. Next will be a dialog to `Allow 'Live Share' extension to open this URI?`. Click on `Open`.
+
+![Open extension](./images/spaces76.png?raw=true "Open extension")   
+
+6. On the dialog for signing in with VS Live Share, you can just click `Continue as anonymous`.
+
+![Continue as anonymous](./images/spaces77.png?raw=true "Continue as anonymous")   
+
+7. You can continue as `Guest User` or pick a different name if you want.
+
+![Guest User](./images/spaces78.png?raw=true "Guest User")   
+
+8. After this, you'll see a dialog indicating its waiting for host approval in the new session. Go back to your codespace and click on the `Accept read-write` option.
+
+![Waiting for approval](./images/spaces79.png?raw=true "Waiting for approval") 
+![Accept read-write](./images/spaces80.png?raw=true "Accept read-write") 
+
+9. At this point, you should have a new VS Code web session that is connected to your codespace.
+
+![New code session](./images/spaces81.png?raw=true "New code session")    
+
+10. In the new VS Code session, make another simple change to the `index.html` file. In the example, I've added "from other session" to the displayed text. Notice there's also an indicator where the original session is at.
+
+![Change in new session](./images/spaces83.png?raw=true "Change in new session")  
+
+11. Switch back to the original codespace session. You should be able to see the changes in the `index.html` file and if you refresh the browser, you'll see the changes made in the other session. You can also see an indicator of where the Guest User is.
+
+![Change from shared session](./images/spaces84.png?raw=true "Change from shared session")  
+
 <p align="center">
 **[END OF LAB]**
 </p>
