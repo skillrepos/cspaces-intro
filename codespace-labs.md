@@ -191,9 +191,76 @@ This should open up that file in another tab as shown below.
 
 ![Deleting codespace](./images/spaces50.png?raw=true "Deleting codespace") 
 ![Stopping codespace](./images/spaces51.png?raw=true "Stopping codespace") 
- 
 
-17. 
+**Lab 4 - Templates and Ports**
+
+**Purpose: In this lab, we’ll see how to create a codespace from a template and also work with ports.** 
+
+1. Go to the URL at https://github.com/codespaces. Notice your codespaces are listed here. We're going to create a new codespace from a template. Click on the 'See all' link at the top right to see all templates.
+
+![Codespaces page](./images/spaces52.png?raw=true "Codespaces page") 
+
+2. We're going to work with a simple web app built using Flask. In the set of templates, select the one for Flask at the lower left. Click on the name 'Flask' to open it up.
+
+![Template select](./images/spaces53.png?raw=true "Template select") 
+
+3. With the code repo open, take a look at the devcontainer.json file at https://github.com/github/codespaces-flask/blob/main/.devcontainer/devcontainer.json . See if you can understand how it works.
+
+![devcontainer.json file](./images/spaces54.png?raw=true "devcontainer.json file") 
+
+4. Now, go back to the 'Code' tab and click the 'Use this template' green button and select the option to 'Open in a codespace'.
+
+![Open in a codespace](./images/spaces55.png?raw=true "Open in a codespace") 
+
+5. This will start up a new temporary codespace based on the repository. Give it a few minutes to startup and you should see the flask application startup and run in a simple browser tab like the figure below.
+
+![New codespace](./images/spaces56.png?raw=true "New codespace") 
+
+6. Click on the 'PORTS' tab and you'll see two ports forwarded. We're going to redo the port forwarding, so select the port that starts with 'Application (5000', right-click and select 'Stop Forwarding Port'.  Also click on the 'x' in the 'Simple Browser' to close that tab.
+
+![New codespace](./images/spaces58.png?raw=true "New codespace") 
+
+7. Make a simple change to the 'GitHub Codespaces <heart> Flask' line in the 'index.html' file. In the example below, I changed it to add my name and changed some other wording. You can optionally commit the change if you want to keep it for when we publish the repo.
+
+![Modify index.html](./images/spaces60.png?raw=true "Modify index.html") 
+
+8. Next, go to the 'PORTS' tab again. Click on the blue 'Add Port' button and in the text entry field, enter 5000. Hit Enter and you should see the port being forwarded again.
+
+![Restarting port](./images/spaces61.png?raw=true "Restarting port") 
+![Restarting port](./images/spaces62.png?raw=true "Restarting port") 
+![Restarting port](./images/spaces63.png?raw=true "Restarting port") 
+
+9. Hover over the 'Forwarded Address' column of the row for port 5000, then click on the icon at the end of the column. This should start the app showing in the simple browser tab again.
+
+![Simple browser](./images/spaces64.png?raw=true "Simple browser") 
+
+10. Hover over the 'Forwarded Address' column of the row for port 5000, then click on the middle icon that looks like a globe. This should start the app running in a different browser tab.
+
+![Primary browser](./images/spaces65.png?raw=true "Primary browser") 
+
+11. Go back to the codespace and hover over the 'Forwarded Address' column of the row for port 5000, then click on the left icon. 
+
+![Primary browser](./images/spaces66.png?raw=true "Primary browser") 
+   
+12. Start a private/incognito session in your browser.  Then paste and try to go to the URL that you copied from the codespace. Chances are you'll get stopped and need to login to see the app running.
+
+![Login required](./images/spaces67.png?raw=true "Login required") 
+
+13. Switch back to the codespaces 'PORTS' tab, select the row for port 5000, and right click. Select the 'Port Visibility' option and make it 'Public'.
+
+![Make port public](./images/spaces68.png?raw=true "Make port public") 
+
+14. Now, repeat steps 11 and 12 to copy the address and paste it into the/a private browser session. This time you should not be prompted to log in and should be able to see the app.
+
+15. Finally, let's publish a copy of our codespace to GitHub to persist it. At the very bottom of the codespace window will be a small icon that looks like an arrow pointing up to a cloud. If you hover over it, will say "codespaces-flask (Git) - Publish to GitHub". Click on that. You will then be prompted in the Command Palette to choose a public or private repo. Choose whichever you want. After that it will upload the files and create the new repo.
+
+![Publish codespace](./images/spaces69.png?raw=true "Publish codespace") 
+
+16. After this, you'll see a popup that says the codespace was published and you can go to the new repo if you want. You can click on it and see your new repo created from the publish.
+
+![Publish codespace](./images/spaces71.png?raw=true "Publish codespace") 
+
+    
 <p align="center">
 **[END OF LAB]**
 </p>
