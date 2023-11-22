@@ -27,3 +27,6 @@ These steps **must** be completed prior to starting the actual labs.
 ## Labs
 
 2. After the codespace has started, open the labs document by going to the file tree on the left, find the file named **codespace-labs.md**, right-click on it, and open it with the **Preview** option.)
+
+![Previewing labs](./images/spaces3a.png?raw=true "Previewing labs")
+   
