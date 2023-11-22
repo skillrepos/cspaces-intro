@@ -18,7 +18,7 @@ These steps **must** be completed prior to starting the actual labs.
 
     - Click the `Code` button on your repository's landing page.
     - Click the `Codespaces` tab.
-    - Click `Create codespaces on main` to create the codespace.
+    - Click `Create codespace on main` to create the codespace.
     - After the codespace has initialized there will be a terminal present.
 
 ![Starting codespace](./images/spaces3.png?raw=true "Starting your codespace")
@@ -26,7 +26,7 @@ These steps **must** be completed prior to starting the actual labs.
 
 ## Labs
 
-2. After the codespace has started, open the labs document by going to the file tree on the left, find the file named **codespace-labs.md**, right-click on it, and open it with the **Preview** option.)
+2. After the codespace has started, open the labs document by going to the file tree on the left, find the file named **codespace-labs.md**, right-click on it, and open it with the **Open Preview** option.)
 
 ![Previewing labs](./images/spaces3a.png?raw=true "Previewing labs")
    
