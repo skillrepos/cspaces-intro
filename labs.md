@@ -179,9 +179,6 @@ This should open up that file in another tab as shown below.
 12. Before we leave this codespace, let's see what it looks like when we have a problem in the codespace. Go up to the devcontainer.json file and remove the ending quote between the colon and the left bracket of the line that has '"extensions": [' so that it is now '"extensions: ['.  Then switch to the 'PROBLEMS' tab and note the issues reported.
     
 ![Introducing problem](./images/spaces48.png?raw=true "Introducing problem")   
-<p align="center">
-**[END OF LAB]**
-</p>
 
 13. Add the quote back where it was. The problems in the tab should go away.
 
@@ -191,6 +188,10 @@ This should open up that file in another tab as shown below.
 
 ![Deleting codespace](./images/spaces50.png?raw=true "Deleting codespace") 
 ![Stopping codespace](./images/spaces51.png?raw=true "Stopping codespace") 
+
+<p align="center">
+**[END OF LAB]**
+</p>
 
 **Lab 4 - Templates and Ports**
 
@@ -259,6 +260,10 @@ This should open up that file in another tab as shown below.
 16. After this, you'll see a popup that says the codespace was published and you can go to the new repo if you want. You can click on it and see your new repo created from the publish.
 
 ![Publish codespace](./images/spaces71.png?raw=true "Publish codespace") 
+
+<p align="center">
+**[END OF LAB]**
+</p>
 
 **Lab 5 - Live sharing and collaboration**
 
