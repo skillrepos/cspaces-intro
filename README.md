@@ -1,5 +1,3 @@
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/skillrepos/cspaces)
-
 
 # Understanding and using GitHub Codespaces - lab setup
 
