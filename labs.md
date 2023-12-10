@@ -217,7 +217,7 @@ This should open up that file in another tab as shown below.
 
 ![New codespace](./images/spaces56.png?raw=true "New codespace") 
 
-6. Click on the 'PORTS' tab and you'll see two ports forwarded. We're going to redo the port forwarding, so select the port that starts with 'Application (5000', right-click and select 'Stop Forwarding Port'.  Also click on the 'x' in the 'Simple Browser' to close that tab.
+6. Click on the 'PORTS' tab and you'll see two ports forwarded. We're going to redo the port forwarding, so select the port that starts with **'Application (5000'**, right-click and select 'Stop Forwarding Port'.  Also click on the 'x' in the 'Simple Browser' to close that tab.
 
 ![New codespace](./images/spaces58.png?raw=true "New codespace") 
 
