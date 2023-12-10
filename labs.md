@@ -13,7 +13,7 @@
 ![Exploring activity bar](./images/spaces4.png?raw=true "Exploring activity bar")
 ![Exploring activity bar](./images/spaces5.png?raw=true "Exploring activity bar")
   
-2. Go back to the Explorer icon at the top of the Activity Bar and click on that. Click on the "> extra" item to expand that and then click on the top file there 'registry-compose.yml' to open it up. [version](https://github.com/skillrepos/cspaces/blob/1984227b82fc06e1907f1f3073178d8a469ad203/extra/registry-compose.yml)
+2. Go back to the Explorer icon at the top of the Activity Bar and click on that. Click on the "> extra" item to expand that and then click on the top file there 'registry-compose.yml' to open it up. 
 
 ![Opening a file](./images/spaces6.png?raw=true "Opening a file")
 
@@ -46,19 +46,19 @@ This should open up that file in another tab as shown below.
 
 ![Splitting terminal](./images/spaces13.png?raw=true "Splitting terminal")
 
-9. After this, you'll have two side-by-side terminals. To the far right, you'll have a list of terminals and if you hover over the bash command entry, you can see the running process info.
+9. After this, you'll have two side-by-side terminals. To the far right, you'll have a list of terminals and if you click in that section and hover over the bash command entry, you can see the running process info.
 
 ![Split terminal](./images/spaces14.png?raw=true "Split terminal")
 
-10. In your new terminal start typing 'code -d'. Then, let's swap the right terminal with the left. Hover over the terminal list and drag the bottom (right) one up over the top (left) one.  After you're done, you can drag the dividing line to make more room in the left-hand session.
+10. In your new terminal start typing **code -d ** (include a space after -d). Then, let's swap the right terminal with the left. Hover over the terminal list and drag the bottom (right) one up over the top (left) one.  After you're done, you can drag the dividing line to make more room in the left-hand session.
 
 ![Swapping terminals](./images/spaces15.png?raw=true "Swapping terminals")
 
-11. Click on the 'roar-complete.yaml.configmap' file on the left and drag it over and drop it next to the 'code -d' command.
+11. Click on the **roar-complete.yaml.configmap** file on the left and drag it over and drop it next to the 'code -d ' command.
 
 ![Comparing file 1](./images/spaces16.png?raw=true "Comparing file 1")
 
-12. **Type at least one space after the first file name.**  Now do the same "drag and drop" for the 'roar-complete.yaml' file, selecting it and dropping it after the other file and the spaces.
+12. **Type at least one space after the first file name.**  Now do the same "drag and drop" for the **roar-complete.yaml** file, selecting it and dropping it after the other file and the spaces.
 
 ![Comparing file 2](./images/spaces17.png?raw=true "Comparing file 2")
 
@@ -96,7 +96,7 @@ This should open up that file in another tab as shown below.
 
 ![Installing GitLens](./images/spaces23.png?raw=true "Installing GitLens")
 
-5. After this, you'll have new icons in the Activity Bar related to GitLens. If you select a line in an editor, you can see information next to it about the commit in Git that led to it.  And hovering over it gives you more information.
+5. After this, you'll have new icons in the Activity Bar related to GitLens. If you open open one of the .yaml files from the project in the editor and select a line, you can see information next to it about the commit in Git that led to it.  And hovering over it gives you more information.
 
 ![GitLens in use](./images/spaces24.png?raw=true "GitLens in use")
 
@@ -108,7 +108,7 @@ This should open up that file in another tab as shown below.
 
 ![Staging a new file](./images/spaces27.png?raw=true "Staging a new file")  
 
-8. Now you can commit and push the file. In the Source Control view, click on the down area of the green "Commit" button or right click and select the "Commit & Push" option.
+8. Now you can commit and push the file. In the Source Control view, click on the down area of the big "Commit" button or right click and select the "Commit & Push" option.
 
 ![Committing a new file](./images/spaces28.png?raw=true "Committing a new file")  
    
@@ -132,7 +132,7 @@ This should open up that file in another tab as shown below.
 
 1. While we customized our codespace in Lab 2, does that mean that we'll have the customizations persisted if we start up another codespace? Let's find out. Go back to a browser tab that's open with the code repository in your GitHub space. We're going to modify an attribute of our new codespace, so click on the green 'Code' button, then the '...' and then the '+ New with options...' selection.
   
-![Starting 2nd codespace](./images/spaces34.png?raw=true "Starting 2nd codespace")    
+![Starting 2nd codespace](./images/spaces35.png?raw=true "Starting 2nd codespace")    
 
 2. At the options screen for the new codebase, change the 'Machine type' to be '4-core'. (You can also change the Region if you want.) Then click on the green button to create the new codespace.
 
