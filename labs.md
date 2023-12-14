@@ -310,7 +310,7 @@ This should open up that file in another tab as shown below.
 
 ![Change in new session](./images/spaces83.png?raw=true "Change in new session")  
 
-11. Switch back to the original codespace session. You should be able to see the changes in the `index.html` file and if you refresh the browser, you'll see the changes made in the other session. You can also see an indicator of where the Guest User is.
+11. Switch back to the original codespace session. You should be able to see the changes in the `index.html` file and if you refresh the browser (via the circular arrow), you'll see the changes made in the other session. You can also see an indicator of where the Guest User is.
 
 ![Change from shared session](./images/spaces84.png?raw=true "Change from shared session")  
 
