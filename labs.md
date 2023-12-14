@@ -1,8 +1,10 @@
 # Understanding and using GitHub Codespaces
 ## Session labs for codespace only
-## Revision 1.1 - 11/22/23
+## Revision 1.2 - 12/14/23
 
-**NOTE: To copy and paste in the codespace, you can use keyboard commands - CTRL+C and CTRL+V, or, if you want to use the mouse to copy and paste, hold the SHIFT key while copying/pasting text.**
+**NOTE: Depending on your broswer and setup, to copy and paste in the codespace, you may need to use keyboard commands - CTRL+C and CTRL+V**
+
+**NOTE: It is recommended to have a copy of these labs open in a separate browser tab/window since we will be creating/switching between several codespaces during the workshop.**
 
 **Lab 1 - Exploring Codespaces**
 
