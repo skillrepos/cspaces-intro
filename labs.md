@@ -17,20 +17,20 @@
   
 2. Go back to the Explorer icon at the top of the Activity Bar and click on that. Click on the "> extra" item to expand that and then click on the top file there 'registry-compose.yml' to open it up. 
 
-![Opening a file](./images/spaces6.png?raw=true "Opening a file")
+![Opening a file](./images/cspaces-intro6.png?raw=true "Opening a file")
 
 3. Since we have two files, let's change the editors to be side-by-side.  Click on the tab above the file name and drag it over to the far side where it starts to go just off of the window.  Release the tab and it should drop into a side-by-side editor view.
 
-![Change to split editor](./images/spaces7.png?raw=true "Change to split editor")
-![Split editor](./images/spaces8.png?raw=true "Split editor")
+![Change to split editor](./images/cspaces-intro7.png?raw=true "Change to split editor")
+![Split editor](./images/cspaces-intro8.png?raw=true "Split editor")
   
 4. Next, let's see another way to open files from the terminal. In your terminal session, enter the following:  
 ```
-code roar-k8s/roar-complete.yaml
+code roar-k8s/roar-complete.yamlc
 ```
 This should open up that file in another tab as shown below.
 
-![Opening a file #2](./images/spaces9.png?raw=true "Opening a file #2")
+![Opening a file #2](./images/cspaces-intro9.png?raw=true "Opening a file #2")
 
 5. Now. let's see how to compare two files.  Select the 'roar-complete.yaml' file and right-click and choose 'Select for Compare'. 
 
@@ -46,23 +46,23 @@ This should open up that file in another tab as shown below.
 
 8. Let's look at one more way to compare files from the terminal. First, let's create a second terminal. You can do that in multiple ways - by selecting the two column icon (A in figure below), by clicking on the "+" option (#2 in the figure below) by using a keyboard shortcut, or by right-clicking and selecting "Split Terminal"(C in figure below).  We'll use the last approach.  Right-click in the terminal and select "Split terminal".
 
-![Splitting terminal](./images/spaces13.png?raw=true "Splitting terminal")
+![Splitting terminal](./images/cspaces-intro13.png?raw=true "Splitting terminal")
 
 9. After this, you'll have two side-by-side terminals. To the far right, you'll have a list of terminals and if you click in that section and hover over the bash command entry, you can see the running process info.
 
-![Split terminal](./images/spaces14.png?raw=true "Split terminal")
+![Split terminal](./images/cspaces-intro14.png?raw=true "Split terminal")
 
 10. In your new terminal start typing **code -d ** (include a space after -d). Then, let's swap the right terminal with the left. Hover over the terminal list and drag the bottom (right) one up over the top (left) one.  After you're done, you can drag the dividing line to make more room in the left-hand session.
 
-![Swapping terminals](./images/spaces15.png?raw=true "Swapping terminals")
+![Swapping terminals](./images/cspaces-intro15.png?raw=true "Swapping terminals")
 
 11. Click on the **roar-complete.yaml.configmap** file on the left and drag it over and drop it next to the 'code -d ' command.
 
-![Comparing file 1](./images/spaces16.png?raw=true "Comparing file 1")
+![Comparing file 1](./images/cspaces-intro16.png?raw=true "Comparing file 1")
 
 12. **Type at least one space after the first file name.**  Now do the same "drag and drop" for the **roar-complete.yaml** file, selecting it and dropping it after the other file and the spaces.
 
-![Comparing file 2](./images/spaces17.png?raw=true "Comparing file 2")
+![Comparing file 2](./images/cspaces-intro17.png?raw=true "Comparing file 2")
 
 
 13. When you hit return, you should see the same kind of diff as you did before.  Suppose we want to get a "longer" view of this file to see more of the differences. We can click on the "Toggle panel" button to see that.
@@ -71,7 +71,7 @@ This should open up that file in another tab as shown below.
 
 14. Click on the same toggle panel button again to get back to the normal view and see the terminal again.  You can click the "x" on the diff to close that. (Optional) If you want, you can delete one of the two terminal sessions by clicking on the trashcan icon over in the terminal list to the right.
 
-![Delete terminal](./images/spaces19.png?raw=true "Delete terminal")
+![Delete terminal](./images/cspaces-intro19.png?raw=true "Delete terminal")
 
 <p align="center">
 **[END OF LAB]**
