@@ -26,7 +26,7 @@
   
 4. Next, let's see another way to open files from the terminal. In your terminal session, enter the following:  
 ```
-code roar-k8s/roar-complete.yamlc
+code roar-k8s/roar-complete.yaml
 ```
 This should open up that file in another tab as shown below.
 
