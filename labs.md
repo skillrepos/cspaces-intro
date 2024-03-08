@@ -38,7 +38,7 @@ This should open up that file in another tab as shown below.
    
 6. Now, select the 'roar-complete.yaml.configmap' file, right-click and select "Compare with Selected".
 
-![Selecting files to compare](./images/spaces11.png?raw=true "Selecting files to compare")
+![Selecting files to compare](./images/cspaces-intro11.png?raw=true "Selecting files to compare")
 
 7. At this point, you should see the comparison file shown as a new editor tab. You can right click on any line to see options for making changes. You can drag the small gray block to scroll through differences (#1 in figure below) and then close it by clicking on the "x" in the tab (#2 in the figure below).
 
