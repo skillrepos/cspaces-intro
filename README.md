@@ -1,5 +1,5 @@
 
-# Understanding and using GitHub Codespaces - lab setup
+# Introduction to GitHub Codespaces - lab setup
 
 These instructions will guide you through configuring a GitHub Codespaces environment that you can use to run the course labs.
 
@@ -7,7 +7,7 @@ These steps **must** be completed prior to starting the actual labs.
 
 ## Create your own repository for these labs
 
-- Create your own copy of this repository by forking the [skillrepos/spaces](https://github.com/skillrepos/spaces) project as a template into your own GitHub area.
+- Create your own copy of this repository by forking the [skillrepos/spaces](https://github.com/skillrepos/spaces-intro) project as a template into your own GitHub area.
 - You do this by clicking the `Fork` button in the upper right portion of the main project page and following the steps to create a copy in **your-github-userid/spaces** .  
 
 ![Forking repository](./images/spaces1.png?raw=true "Forking the repository")
