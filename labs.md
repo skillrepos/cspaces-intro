@@ -134,11 +134,11 @@ This should open up that file in another tab as shown below.
 
 1. While we customized our codespace in Lab 2, does that mean that we'll have the customizations persisted if we start up another codespace? Let's find out. Go back to a browser tab that's open with the code repository in your GitHub space. We're going to modify an attribute of our new codespace, so click on the green 'Code' button, then the '...' and then the '+ New with options...' selection.
   
-![Starting 2nd codespace](./images/spaces35.png?raw=true "Starting 2nd codespace")    
+![Starting 2nd codespace](./images/cspaces-intro35.png?raw=true "Starting 2nd codespace")    
 
 2. At the options screen for the new codebase, change the 'Machine type' to be '4-core'. (You can also change the Region if you want.) Then click on the green button to create the new codespace.
 
-![Changing options for codespace](./images/spaces36.png?raw=true "Changing options for codespace")   
+![Changing options for codespace](./images/cspaces-intro36.png?raw=true "Changing options for codespace")   
 
 3. Wait for your new codespace to start up. Once it does, notice that it does not have the color scheme that the previous one had. In fact, there are no extensions installed at all. You can verify this by clicking on the 'Extensions' icon in the Activity Bar and noticing that that the 'BROWSER - INSTALLED' row has a count of 0.
 
@@ -161,7 +161,7 @@ This should open up that file in another tab as shown below.
 ![Installing podman](./images/spaces41.png?raw=true "installing podman") 
 ![devcontainer file](./images/spaces42.png?raw=true "devcontainer file")
 
-8. Now, let's install our extensions that we had in the previous codespace. But this time, we'll add them to the devcontainer file so they will be there for new codespaces. Click on the 'Extensions' icon in the Activity Bar, then in the search bar, type in 'Winter is Coming'. After that extension shows up, right-click on it and select the option to 'Add to devcontainer.json'.
+8. Now, let's install our extensions that we had in the previous codespace. But this time, we'll add them to the devcontainer file so they will be there for new codespaces. If you don't have the Extensions pane with search already opened on the left, click on the 'Extensions' icon in the Activity Bar. Then in the search bar, type in 'Winter is Coming'. After that extension shows up, right-click on it and select the option to 'Add to devcontainer.json'.
 
 ![Installing theme](./images/spaces43.png?raw=true "installing theme") 
 
@@ -184,12 +184,12 @@ This should open up that file in another tab as shown below.
 
 13. Add the quote back where it was. The problems in the tab should go away.
 
-14. Now we'll do some management of codespaces through the repository codespace page. In your repository's tab, go to 'https://github.com/<your github userid>/codespaces.
+14. Now we'll do some management of codespaces through the repository codespace page. In your repository's tab, go to 'https://github.com/codespaces.
 
 15. On this page you'll see your current codespaces listed. Delete the older one (the one with 2 cores) and Stop the newer one, the one with 4 cores).
 
-![Deleting codespace](./images/spaces50.png?raw=true "Deleting codespace") 
-![Stopping codespace](./images/spaces51.png?raw=true "Stopping codespace") 
+![Deleting codespace](./images/cspaces-intro50.png?raw=true "Deleting codespace") 
+![Stopping codespace](./images/cspaces-intro51.png?raw=true "Stopping codespace") 
 
 <p align="center">
 **[END OF LAB]**
