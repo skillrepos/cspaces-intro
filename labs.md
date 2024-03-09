@@ -271,7 +271,7 @@ This should open up that file in another tab as shown below.
 
 **Purpose: In this lab, we’ll see how to share a codespace and collaborate with it.** 
 
-1. In the codespace you were just working in (or one that you startup from the published repo, search for the `Live Share` extension and install it.
+1. In the codespace you were just working in (or one that you startup from the published repo), search for the `Live Share` extension and install it.
 
 ![Find and install Live Share extension](./images/spaces72.png?raw=true "Find and install Live Share extension")
 
