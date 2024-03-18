@@ -1,6 +1,6 @@
 # Introduction to GitHub Codespaces
 ## Tools for secure and collaborative cloud-based development
-## Revision 1.0 - 03/08/24
+## Revision 1.1 - 03/17/24
 
 **NOTE: Depending on your broswer and setup, to copy and paste in the codespace, you may need to use keyboard commands - CTRL+C and CTRL+V**
 
