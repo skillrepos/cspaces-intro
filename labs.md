@@ -1,6 +1,6 @@
 # Introduction to GitHub Codespaces
 ## Tools for secure and collaborative cloud-based development
-## Revision 1.1 - 03/17/24
+## Revision 1.2 - 03/18/24
 
 **NOTE: Depending on your broswer and setup, to copy and paste in the codespace, you may need to use keyboard commands - CTRL+C and CTRL+V**
 
@@ -283,7 +283,7 @@ This should open up that file in another tab as shown below.
 
 ![Live Share link](./images/spaces74.png?raw=true "Live Share link") 
 
-4. This can be sent in email or any kind of messaging to someone. For now, just paste it into another browser session and it will try to open the app in a web version of Visual Studio Code. You'll see a dialog asking to `Open Visual Studio Code 2.app`. Just click on that button.
+4. This can be sent in email or any kind of messaging to someone. For now, just paste it into another browser session and it will try to open the app in a web version of Visual Studio Code. You'll see a dialog asking to `Open Visual Studio Code 2.app`. Just click on that button. (Or you can Cancel and *Continue in web*.)
 
 ![Open VS Code app](./images/spaces75.png?raw=true "Open VS Code app") 
 
